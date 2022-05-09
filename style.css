@@ -173,7 +173,7 @@ p{
     color: #f0923b;
     font-size: 12px;
     padding: 60px 0 20px;
-    height: 450px;
+    min-height: 450px;
 }
 .footer p{
     color: #f0923b;
@@ -250,6 +250,13 @@ select:focus{
     color: #464b36;
 }
 
+/*------quotes-------*/
+.col-7{
+    max-width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
 /*-----single shoot details----*/
 
 .single-shoot{
@@ -314,4 +321,8 @@ select:focus{
         font-size: 26px;
         line-height: 22px;
     }
+}
+.contact-box{
+    margin: 0;
+    padding: 0;
 }
